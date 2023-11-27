@@ -1,0 +1,56 @@
+h{
+  FONT-SIZE: x-large;
+  FONT-FAMILY: math;
+  COLOR: #6a6767;
+  position: absolute;
+  top: 9px;
+}
+
+.row{
+  
+  margin-left: -82px;
+    margin-right: -81px;;
+}
+
+
+@media screen and (max-width: 600px) {
+  .row{
+    margin-left: -11px;
+    margin-right: -11px;
+}
+
+}
+
+
+.sidebar {
+  overflow: hidden;
+  background-color: rgb(224, 224, 224);
+  float: right;
+  }
+  
+.topnav-right {
+  float: right;
+}
+  
+  .sidebar a {
+    float: left;
+    color: #0c0c0c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .sidebar a:hover {
+    color: #fff8f8;background: #b4b3b3;
+  }
+
+  .sidebar .active {
+    background: rgb(255, 255, 255);
+    color: #080808;
+    
+  }
+
+
+
+  

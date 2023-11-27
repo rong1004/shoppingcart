@@ -1,0 +1,50 @@
+body{
+  background: rgb(193, 250, 212);
+}
+
+h2{
+    text-align: center;
+}
+
+input[type=text], select, input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    width: 60%;
+      top: 20%;
+      position: absolute;
+      left: 17%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container{
+        width: 70%;
+    }
+    
+   
+  }
+  

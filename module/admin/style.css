@@ -1,0 +1,20 @@
+#result{
+    width: 37%;
+    position: absolute;
+    left: 29%;
+}
+body{
+    background: rgb(193, 250, 212);
+}
+
+
+@media screen and (max-width: 600px) {
+    #result{
+        width: 300px;
+        position: absolute;
+        left: 10%;
+    }
+  
+  }
+
+  

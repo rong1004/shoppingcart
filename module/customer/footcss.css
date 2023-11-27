@@ -1,0 +1,24 @@
+.foot1{
+    background-color: rgb(224, 224, 224);
+    height: 100px;
+    width: 100%;
+    /* display: flex; */
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.foot{
+    /* background-color: rgb(224, 224, 224); */
+    /* height: 100px; */
+    /* width: 100%; */
+    display: flex;
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footcol{
+    width: 50%;
+
+}
